@@ -7,3 +7,5 @@
 [![Build Status](https://travis-ci.org/snetalena/frontend-project-lvl1.svg?branch=master)](https://travis-ci.org/snetalena/frontend-project-lvl1)
 
 (https://asciinema.org/a/Cz6lQyrYghyNb97jR6W5m9ZAg)
+
+(https://asciinema.org/a/GlyMH871eSRX7DKIuTCu71CZA)

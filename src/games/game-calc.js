@@ -3,7 +3,8 @@ import { startBrainGame, getPair } from '..';
 const description = () => console.log('What is the result of the expression');
 
 const getGame = () => {
-  const getNumber = () => Math.floor(Math.random() * (Math.floor(100) - Math.ceil(1) + 1)) + Math.ceil(1);
+  const getNumber = () => Math.floor(Math.random() * (Math.floor(100) - Math.ceil(1) + 1))
+  + Math.ceil(1);
   let question = false;
   let correctAnswer = false;
   const first = getNumber();
