@@ -2,6 +2,9 @@ import readlineSync from 'readline-sync';
 
 import { cons, car, cdr } from 'hexlet-pairs';
 
+export const getRundomNumber = (min, max) => Math.floor(Math.random()
+* (Math.floor(max) - Math.ceil(min) + 1)) + Math.ceil(min);
+
 export const getPair = (question, answer) => cons(question, answer);
 
 const getQuestion = (gamePair) => car(gamePair);

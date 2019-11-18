@@ -1,15 +1,13 @@
-import { startBrainGame, getPair } from '..';
+import { startBrainGame, getPair, getRundomNumber } from '..';
 
 const description = () => console.log('What is the result of the expression');
 
 const getGame = () => {
-  const getNumber = () => Math.floor(Math.random() * (Math.floor(100) - Math.ceil(1) + 1))
-  + Math.ceil(1);
   let question = false;
   let correctAnswer = false;
-  const first = getNumber();
-  const second = getNumber();
-  const someNumber = Math.floor(Math.random() * (Math.floor(3) - Math.ceil(1) + 1)) + Math.ceil(1);
+  const first = getRundomNumber(1, 100);
+  const second = getRundomNumber(1, 100);
+  const someNumber = getRundomNumber(1, 3);
   if (someNumber === 1) {
     question = `${first} - ${second}`;
     correctAnswer = first - second;
