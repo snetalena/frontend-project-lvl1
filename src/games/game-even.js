@@ -1,6 +1,6 @@
 import { startBrainGame, getPair, getRundomNumber } from '..';
 
-const description = () => console.log('Answer "yes" if the number is even, otherwise answer "no"');
+const description = () => console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
 const getGame = () => {
   const question = getRundomNumber(1, 100);

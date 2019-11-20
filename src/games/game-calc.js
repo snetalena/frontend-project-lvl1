@@ -1,6 +1,6 @@
 import { startBrainGame, getPair, getRundomNumber } from '..';
 
-const description = () => console.log('What is the result of the expression');
+const description = () => console.log('What is the result of the expression?');
 
 const getGame = () => {
   let question = false;
