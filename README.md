@@ -6,12 +6,12 @@
 
 [![Build Status](https://travis-ci.org/snetalena/frontend-project-lvl1.svg?branch=master)](https://travis-ci.org/snetalena/frontend-project-lvl1)
 
-[Asciinema for brain-even](https://asciinema.org/a/Cz6lQyrYghyNb97jR6W5m9ZAg)
+[Asciinema for brain-even](https://asciinema.org/a/t44rQcAILIziqan3BX1WSusMT)
 
-[Asciinema for brain-calc](https://asciinema.org/a/GlyMH871eSRX7DKIuTCu71CZA)
+[Asciinema for brain-calc](https://asciinema.org/a/zc0945ejJfSXqa6rxm1ggJjZk)
 
-[Asciinema for brain-gcd](https://asciinema.org/a/bJxQuC2Yxfx0FVG4wsA0MNKmy)
+[Asciinema for brain-gcd](https://asciinema.org/a/Pv6JiOTFQHlQIhsteUVvaznQ3)
 
-[Asciinema for brain-progression](https://asciinema.org/a/Nx0Vr8reL1987NlI7IlngF4xk)
+[Asciinema for brain-progression](https://asciinema.org/a/SOkAoppxTfrVdk0GYTpPgYpuo)
 
-[Asciinema for brain-prime](https://asciinema.org/a/6odcARM96dfLf2cM5uTgMp2PU)
+[Asciinema for brain-prime](https://asciinema.org/a/SOkAoppxTfrVdk0GYTpPgYpuo)
