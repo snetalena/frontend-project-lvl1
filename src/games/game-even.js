@@ -1,10 +1,13 @@
-import { startBrainGame, getPair, getRundomNumber } from '..';
+import { startBrainGame, getRundomNumber } from '..';
+import { getPair } from '../util';
 
-const description = () => console.log('Answer "yes" if the number is even, otherwise answer "no".');
+const description = 'Answer "yes" if the number is even, otherwise answer "no".';
+
+const constIsEven = (number) => number % 2 === 0;
 
 const getGame = () => {
   const question = getRundomNumber(1, 100);
-  const correctAnswer = question % 2 === 0 ? 'yes' : 'no';
+  const correctAnswer = constIsEven(question) ? 'yes' : 'no';
   return getPair(question, correctAnswer);
 };
 

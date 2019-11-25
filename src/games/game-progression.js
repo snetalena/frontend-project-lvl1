@@ -1,6 +1,7 @@
-import { startBrainGame, getPair, getRundomNumber } from '..';
+import { startBrainGame, getRundomNumber } from '..';
+import { getPair } from '../util';
 
-const description = () => console.log('What number is missing in the progression?');
+const description = 'What number is missing in the progression?';
 
 const getGame = () => {
   let current = getRundomNumber(1, 100);
