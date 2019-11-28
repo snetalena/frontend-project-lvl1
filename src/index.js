@@ -11,7 +11,7 @@ const startBrainGame = (description, getGame) => {
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
 
-  if (getGame === false) return false;
+  if (getGame === false) return;
   const roundsAmount = 3;
   for (let i = 1; i <= roundsAmount; i += 1) {
     const gamePair = getGame();
@@ -21,6 +21,7 @@ const startBrainGame = (description, getGame) => {
     const userAnswer = readlineSync.question('Your answer: ');
     if (correctAnswer !== userAnswer) {
       console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${correctAnswer}. Let's try again, ${userName}!`);
+      return;
     }
     console.log('Correct!');
   }
