@@ -1,5 +1,5 @@
-import { startBrainGame, getRundomNumber } from '..';
-import { getPair } from '../util';
+import startBrainGame from '..';
+import { getPair, getRundomNumber } from '../util';
 
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
@@ -15,8 +15,7 @@ const isPrime = (number) => {
 
 const getGame = () => {
   const question = getRundomNumber(1, 100);
-  let correctAnswer = false;
-  correctAnswer = isPrime(question) ? 'yes' : 'no';
+  const correctAnswer = isPrime(question) ? 'yes' : 'no';
   return getPair(question, correctAnswer);
 };
 

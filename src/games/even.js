@@ -1,5 +1,5 @@
-import { startBrainGame, getRundomNumber } from '..';
-import { getPair } from '../util';
+import startBrainGame from '..';
+import { getPair, getRundomNumber } from '../util';
 
 const description = 'Answer "yes" if the number is even, otherwise answer "no".';
 
