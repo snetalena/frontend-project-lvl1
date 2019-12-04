@@ -1,5 +1,5 @@
 import startBrainGame from '..';
-import { getPair, getRundomNumber } from '../util';
+import { getQA, getRundomNumber } from '../utils';
 
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
@@ -13,11 +13,11 @@ const isPrime = (number) => {
   return true;
 };
 
-const getGame = () => {
+const getGameData = () => {
   const question = getRundomNumber(1, 100);
   const correctAnswer = isPrime(question) ? 'yes' : 'no';
-  return getPair(question, correctAnswer);
+  return getQA(question, correctAnswer);
 };
 
-const startPrimeGame = () => startBrainGame(description, getGame);
+const startPrimeGame = () => startBrainGame(description, getGameData);
 export default startPrimeGame;
