@@ -3,14 +3,14 @@ import { getQA, getRundomNumber } from '../utils';
 
 const description = 'What number is missing in the progression?';
 
-const indexOfProgressionLength = 9;
+const ProgressionLength = 10;
 
 const getGameData = () => {
   const start = getRundomNumber(1, 100);
   const difference = getRundomNumber(1, 20);
-  const indexOfMissedPosition = getRundomNumber(0, indexOfProgressionLength);
+  const indexOfMissedPosition = getRundomNumber(0, ProgressionLength - 9);
   const question = [];
-  for (let i = 0; i <= indexOfProgressionLength; i += 1) {
+  for (let i = 0; i <= ProgressionLength - 1; i += 1) {
     question[i] = start + difference * i;
   }
   const correctAnswer = question[indexOfMissedPosition];
